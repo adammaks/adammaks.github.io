@@ -1,0 +1,121 @@
+.shop-block{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.block-product{
+    margin: 10px;
+    width: 22%;
+    height: auto;
+}.block-product a{text-decoration: none;color: #333;}
+
+.block-product img{
+    max-width: 100%;
+}
+.name-product{
+    margin: 0px;
+    color: #333;
+    font-size: 16px;
+    font-family: text;
+}
+.price-product{
+    color: #555;
+    font-family: logo;
+}
+.product-block{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.left-product{
+    width: 50%;
+    height: 600px;
+    padding: 20px;
+}
+.right-product{
+    width: 50%;
+    padding: 20px;
+}
+
+.name-product-right{
+    font-size: 18px;
+    font-family: text;
+    cursor: default;
+}
+.price-product-right{
+    font-size: 20px;
+    font-family: logo-light;
+    cursor: default;
+}
+.select-size-right{
+    text-align: center;
+
+}
+.form-select-size-product{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    font-family: text;
+}
+.button-in-cart-product{
+    width: 100%;
+    height: 45px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #1f1f1f;
+    text-transform: uppercase;
+    color: #fff;
+    vertical-align: top;
+    font-family: url;
+}
+.description-product{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f6f6f6;
+}
+.name-description-product{
+    margin: 0px auto;
+    padding: 5px;
+    width: 20%;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    font-size: 28px;
+    font-family: text;
+    cursor: default;
+}
+.text-description-product{
+    margin: 20px;
+    font-size: 17px;
+    font-family: text;
+    cursor: default;
+}
+@media screen and (max-width: 580px){
+    .product-block{
+        flex-direction: column;
+    }
+    .right-product{
+    width: 90%;
+    padding: 20px;
+    text-align: left;
+}
+.name-description-product{
+    width: 90%;
+    }
+.text-description-product{
+        text-align: justify;
+    }
+}

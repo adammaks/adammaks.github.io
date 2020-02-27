@@ -1,0 +1,18 @@
+@font-face {
+    font-family: logo;
+    src: url('/fonts/logo.ttf');
+}@font-face {
+    font-family: logo-bold;
+    src: url('/fonts/logo-bold.ttf');
+   }@font-face {
+    font-family: logo-light;
+    src: url('/fonts/logo-light.ttf');
+   }
+
+@font-face {
+    font-family: text;
+    src: url('/fonts/text.ttf');   }
+@font-face {
+    font-family: url;
+    src: url('/fonts/url.ttf');
+}
