@@ -103,7 +103,7 @@
     font-family: text;
     cursor: default;
 }
-@media screen and (max-width: 580px){
+@media screen and (max-width: 650px){
     .product-block{
         flex-direction: column;
     }
