@@ -141,17 +141,17 @@
 	.img-about-one,.img-about-one2{
 		margin: 5px;
 		width: 50%;
-		height: auto;
 		position: relative;
 		top: 0px;
+        object-fit: cover;
 	}
 	.img-about-two,.img-about-two2{
 		margin: 5px;
 		width: 50%;
-		height: auto;
 		position: relative;
 		top: 0px;
 		left: 0px;
+        object-fit: cover;
 	}
 	.about-story-right{
 		width: 95%;
