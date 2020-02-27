@@ -141,8 +141,6 @@
 	.img-about-one,.img-about-one2{
 		margin: 5px;
 		max-width: 50%;
-		min-height: 200px;
-		max-height: 250px;
 		max-height: 200px;
 		position: relative;
 		top: 0px;
@@ -150,8 +148,6 @@
 	.img-about-two,.img-about-two2{
 		margin: 5px;
 		max-width: 50%;
-		min-height: 200px;
-		max-height: 250px;
 		max-height: 200px;
 		position: relative;
 		top: 0px;
