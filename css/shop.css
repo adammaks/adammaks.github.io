@@ -14,7 +14,21 @@
     width: 22%;
     height: auto;
 }.block-product a{text-decoration: none;color: #333;}
-
+@media screen and (max-width: 650px){
+    .block-product{
+        margin: 10px;
+        width: 45%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 400px){
+    .block-product{
+        margin: 10px;
+        width: 100%;
+        height: auto;
+    }
+    
+}
 .block-product img{
     max-width: 100%;
 }
