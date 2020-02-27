@@ -138,19 +138,17 @@
 		display: flex;
 		flex-direction: row-reverse;
 	}
-	.img-about-one,.img-about-one2{
+	.img-about-one,.img-about-two{
 		margin: 5px;
-		width: 50%;
-		max-width: 500px;
-		height: auto;
+		max-width: 50%;
+		height: 200px;
 		position: relative;
 		top: 0px;
 	}
-	.img-about-two,.img-about-two2{
+	.img-about-one2,.img-about-two2{
 		margin: 5px;
-		width: 50%;
-		max-width: 500px;
-		height: auto;
+		max-width: 50%;
+		height: 200px;
 		position: relative;
 		top: 0px;
 		left: 0px;
