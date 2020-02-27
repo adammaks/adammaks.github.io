@@ -140,14 +140,14 @@
 	}
 	.img-about-one,.img-about-one2{
 		margin: 5px;
-		max-width: 50%;
+		width: 50%;
 		height: auto;
 		position: relative;
 		top: 0px;
 	}
 	.img-about-two,.img-about-two2{
 		margin: 5px;
-		max-width: 50%;
+		width: 50%;
 		height: auto;
 		position: relative;
 		top: 0px;
