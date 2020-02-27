@@ -91,7 +91,7 @@ body{
 	background-color:#303030;
 	color: #ddd;
 }
-@media screen and (max-width: 580px){
+@media screen and (max-width: 650px){
 	.head{
 		flex-direction: column;
 	}
@@ -99,6 +99,15 @@ body{
 		margin: 10px;
 		margin-bottom: 30px;
 	}
+	.shop-menu li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .shop-menu img{
+    	margin-bottom: 10px;
+    }
 	.menu-search{
 		flex-direction: column;
 	}
@@ -113,7 +122,7 @@ body{
 		position: relative; 
 	}
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 470px){
 		.menu ul{
 			display: flex;
 			justify-content: center;
@@ -319,7 +328,7 @@ background-size: 45px 30px;background-position: center 5px;}
 	text-decoration: none;
     transition: 0.5s;
 }.offers-block-two:hover .button-offers{background-color: #fff;color: #000;border: 1px solid #ddd;}.offers-block-one:hover .button-offers{background-color: #fff;color: #000;border: 1px solid #ddd;}
-@media screen and (max-width: 580px){
+@media screen and (max-width: 650px){
 	.descripion-clothing{
 		width: 75%;
 		bottom: 20px;
@@ -476,7 +485,7 @@ background-size: 45px 30px;background-position: center 5px;}
     transition: 0.5s;
 }.url-inst:hover{background-color: #ffffff;color: #000;border: 1px solid #999;}
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 650px){
 	.man-or-wooman{
 		margin: 10px;
 		flex-direction: column;
@@ -551,7 +560,7 @@ background-size: 45px 30px;background-position: center 5px;}
 	text-decoration: none;
 	color: #000;
 }
-@media screen and (max-width: 580px){
+@media screen and (max-width: 650px){
 	.menu-footer ul{
 		width: 100%;
 		text-align: center;

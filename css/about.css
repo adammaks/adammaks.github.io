@@ -32,8 +32,9 @@
     color: #fff;
     z-index: 1;
 }
-@media screen and (max-width: 580px){
+@media screen and (max-width: 650px){
 	.logo-about{
+		text-align: center;
 		height: auto;
 	}
 	.name-about{
@@ -126,7 +127,7 @@
 	font-family: text;
     color: #fbfbfb;
 }
-@media screen and (max-width: 580px){
+@media screen and (max-width: 650px){
 	.about-story{
 		margin: 10px auto;
 		padding: 0px;
@@ -139,13 +140,13 @@
 	}
 	.img-about-one,.img-about-one2{
 		margin: 5px;
-		width: 50%;
+		max-width: 50%;
 		position: relative;
 		top: 0px;
 	}
 	.img-about-two,.img-about-two2{
 		margin: 5px;
-		width: 50%;
+		max-width: 50%;
 		position: relative;
 		top: 0px;
 		left: 0px;
