@@ -17,7 +17,7 @@
 
 	<!-- head -->
 	<div class="head">
-		<p class="name-site" title='looka me'><a href="index.php">Look`a Me</a></p>
+		<p class="name-site" title='looka me'><a href="index.html">Look`a Me</a></p>
 		<div class="shop-menu">
 			<ul>
 				<a href="#" class="url-menu-head" alt="account"><li><img src="/images/icons/menu/account.png"/>Аккаунт</li></a>
@@ -32,11 +32,11 @@
 	<div class="menu-search">
 		<nav class="menu">
 			<ul>
-				<a href="index.php" class="url-menu"><li>Главная</li></a>
-				<a href="shop.php" class="url-menu"><li>Магазин</li></a>
-				<a href="about.php" class="url-menu"><li>О нас</li></a>
-				<a href="link.php" class="url-menu"><li>Связь</li></a>
-				<a href="sale.php" class="url-menu-sale"><li>Sale %</li></a>
+				<a href="index.html" class="url-menu"><li>Главная</li></a>
+				<a href="shop.html" class="url-menu"><li>Магазин</li></a>
+				<a href="about.html" class="url-menu"><li>О нас</li></a>
+				<a href="link.html" class="url-menu"><li>Связь</li></a>
+				<a href="sale.html" class="url-menu-sale"><li>Sale %</li></a>
 			</ul>
 		</nav>
 		<div class="search">
@@ -58,7 +58,7 @@
 		<div class="descripion-clothing">
 			<p class="name-description">Pathc 42.2</p>
 			<p class="text-description">Первая линия нашего бренда, которая заставит тебя расскрыть свою уникальность. Чувство стиля, шарма, ритма жизни, все это вдохновляющий - PATCH 42.2</p>
-			<a href="shop.php" class="button-description">Купить сейчас</a>
+			<a href="shop.html" class="button-description">Купить сейчас</a>
 		</div>
 	</div>
 	<!-- end content one -->
@@ -74,7 +74,7 @@
 		</div>
 		<div class="offers-block-one" style="background-image: url(/images/images-page/offers.jpg);"><div class="block-black"></div>
 				<p class="name-offers">Совсем скоро - открытие оффлайн магазина</p>
-				<a href="page.php" class="button-offers">Узнать больше</a>
+				<a href="page.html" class="button-offers">Узнать больше</a>
 		</div>
 		<div class="offers-block-two" style="background-image: url(/images/images-page/offers2.jpg);">
 			<div class="block-white">
@@ -114,13 +114,13 @@
 		<div class="size-background">
 		<div class="man"><div class="block-black"></div>
 				<p class="name-description-block">Мужчины</p>
-				<a href="catalog.php" class="button-description-block">Мужской раздел</a>
+				<a href="catalog.html" class="button-description-block">Мужской раздел</a>
 		</div>
 		</div>
 		<div class="size-background">
 		<div class="man wooman"><div class="block-black"></div>
 				<p class="name-description-block">Женщины</p>
-				<a href="catalog.php" class="button-description-block">Женский раздел</a>
+				<a href="catalog.html" class="button-description-block">Женский раздел</a>
 		</div>
 		</div>
 	</div>
@@ -156,11 +156,11 @@
 		<p class="name-footer">Look`a Me</p>
 		<nav class="menu-footer">
 			<ul>
-				<li><a href="index.php">Главная</a></li>
-				<li><a href="shop.php">Магазин</a></li>
-				<li><a href="about.php">О нас</a></li>
-				<li><a href="link.php">Связь</a></li>
-				<li><a href="sale.php" class="sale-url">Sale %</a></li>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="shop.html">Магазин</a></li>
+				<li><a href="about.html">О нас</a></li>
+				<li><a href="link.html">Связь</a></li>
+				<li><a href="sale.html" class="sale-url">Sale %</a></li>
 			</ul>
 		</nav>
 		<nav class="nav-link">
