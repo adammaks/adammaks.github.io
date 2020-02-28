@@ -187,6 +187,43 @@ body{
 	text-decoration: none;
 	transition: 0.5s;
 }.descripion-clothing:hover .button-description{background-color: #fff;color: #000;border: 1px solid #ddd;}
+
+@media screen and (max-width: 650px){
+.new-clothing{
+	margin: 0px auto;
+	position: relative;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	overflow: hidden;
+}
+.item{
+	width: 45%;
+	min-height: 350px;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+@media screen and (max-width: 400px){.item{width: 95%;background-position: top center;}}
+.descripion-clothing{
+	width: 100%;
+	margin: 10px;
+	padding: 40px;
+	border: 1px solid #ececec;
+	box-shadow: none;
+	background-color: #ffffff;
+	font-family: sans-serif;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	cursor: default;
+}
+}
 .offers{
     margin: 0px auto;
     padding: 0px;
@@ -329,10 +366,6 @@ background-size: 45px 30px;background-position: center 5px;}
     transition: 0.5s;
 }.offers-block-two:hover .button-offers{background-color: #fff;color: #000;border: 1px solid #ddd;}.offers-block-one:hover .button-offers{background-color: #fff;color: #000;border: 1px solid #ddd;}
 @media screen and (max-width: 650px){
-	.descripion-clothing{
-		width: 75%;
-		bottom: 20px;
-	}
 	.offers{
     margin: 10px;
     flex-direction: column;
