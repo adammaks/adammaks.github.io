@@ -166,6 +166,7 @@ body{
 	font-family: sans-serif;
 	position: absolute;
 	top: 45%;
+	left: 27%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -224,6 +225,8 @@ body{
 	width: 100%;
 	margin: 10px;
 	padding: 40px;
+	top: 0px;
+	left: 0px;
 	border: 1px solid #ececec;
 	box-shadow: none;
 	background-color: #ffffff;
@@ -729,4 +732,24 @@ background-size: 45px 30px;background-position: center 5px;}
 	font-size: 15px;
 	margin-right: 20px;
 	padding: 10px;
+}
+.btn-save-account{
+	display: block;
+	width: 20%;
+	text-transform: uppercase;
+	background-color: #1f1f1f;
+	color: #fff;
+	text-align: center;
+	font-family: url;
+    padding: 20px;
+    font-size: 12px;
+	border: 1px solid #000;
+    z-index: 2;
+    cursor: pointer;
+	text-decoration: none;
+    transition: 0.5s;
+}
+.btn-save-account:hover{
+	background-color: #fff;
+	color: #000;
 }
