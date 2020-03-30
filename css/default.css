@@ -220,7 +220,7 @@ body{
     background-position: center center;
     background-size: cover;
 }
-@media screen and (max-width: 400px){.item{width: 95%;background-position: top center;}}
+@media screen and (max-width: 400px){.item{display:none;width: 95%;background-position: top center;}}
 .descripion-clothing{
 	width: 100%;
 	margin: 10px;
