@@ -753,3 +753,8 @@ background-size: 45px 30px;background-position: center 5px;}
 	background-color: #fff;
 	color: #000;
 }
+@media screen and (max-width: 650px;){
+	.btn-save-account{
+		width: 100%;
+	}
+}
