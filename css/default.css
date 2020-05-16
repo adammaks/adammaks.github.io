@@ -87,9 +87,10 @@ body{
 	width: 85%;
 	padding: 25px;
 	font-family: text;
-	border: 0px solid;
-	background-color:#303030;
+	border: 0px;
+	background-color: #303030;
 	color: #ddd;
+    -webkit-appearance: none;
 }
 @media screen and (max-width: 650px){
 	.head{
